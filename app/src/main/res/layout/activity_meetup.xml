@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/skystars1"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_weight="0.5"
+        android:textColor="@android:color/white"
+        android:id="@+id/amountFriendsAdded_textView"/>
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2.5"
+        android:textSize="20sp"
+        android:inputType="text"
+        android:textColor="@android:color/white"
+        android:gravity="start"
+        android:hint="@string/writeSomething_txt"
+        android:id="@+id/msg_editText" />
+
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="3"
+    android:orientation="vertical"
+    >
+
+    <Button android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/addfriends_btn"
+        android:layout_gravity="center"
+        android:textColor="@android:color/white"
+        android:background="@drawable/button_background"
+        android:layout_marginTop="20dp"
+        android:id="@+id/addContacts_btn"
+        />
+
+
+    <Button android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+
+        android:layout_gravity="center"
+        android:text="@string/record_txt"
+        android:layout_marginTop="20dp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/button_background"
+        android:id="@+id/speech_btn"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/submit_txt"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/button_background"
+        android:id="@+id/submit_btn"/>
+
+
+</LinearLayout>
+
+</LinearLayout>

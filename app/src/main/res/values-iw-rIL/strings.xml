@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CleverStudentApp</string>
+    <string name="input_name">הכנס את שמך</string>
+    <string name="input_academy_institue">הכנס את שם מוסד הלימודים</string>
+    <string name="signin_btn">היכנס</string>
+    <string name="setSession_btn">קבע פגישת למידה</string>
+    <string name="hello_text">"היי, "</string>
+    <string name="perform_txt">" מה תרצה לעשות?"</string>
+    <string name="addfriends_btn">הוסף חברים</string>
+    <string name="submit_txt">שלח</string>
+    <string name="record_txt">הקלט הודעה</string>
+    <string name="writeSomething_txt">כתוב כאן משהו...</string>
+    <string name="photo_options">מאיפה לקחת את התמונה?</string>
+    <string name="camera_choose">מצלמה</string>
+    <string name="gallery_choose">גלריה</string>
+    <string name="cancel_choose">בטל</string>
+    <string name="imageResource_title">בחר מקור ייבוא תמונה</string>
+    <string name="add_button">הוסף</string>
+    <string name="navigate_txt">נווט למוסד הלימודים שלי</string>
+    <string name="contact_us_txt">צור קשר</string>
+    <string name="mail_subject">נושא</string>
+    <string name="mail_address">כתובת המייל שלך</string>
+    <string name="mail_instructions">מלא את התאים למטה ואנחנו נחזור אליך בהקדם האפשרי</string>
+    <string name="mail_sender_name">שם</string>
+    <string name="sentby_txt">"נשלח מאת "</string>
+    <string name="create_event">צור אירוע חדש</string>
+    <string name="change_picture">שנה תמונה</string>
+    <string name="empty_message_error">מצטערים אתה לא יכול לשלוח הודעה ריקה</string>
+    <string name="no_added_friends_message_error">מצטערים אבל אתה חייב להוסיף קודם חברים לפני שליחת ההודעה</string>
+    <string name="sms_successfully_sent">ההודעה נשלחה בהצלחה!</string>
+    <string name="sms_failed_error">שליחת ההודעה נכשלה, אנא נסה שוב</string>
+    <string name="no_friends_added_question">אפילו חבר אחד לא הוספת? :(</string>
+    <string name="amount_friends_added">" חברים נוספו! מוכן לשלוח את ההודעה לחברים? :)"</string>
+    <string name="gotoSettings">לעבור להגדרות אפליקציה?</string>
+    <string name="permissionsRequired">מצטערים, הרשאות הכרחיות בכדי להשלים את הפעולה\\nתרצה לעבור להגדרות האפליקציה?</string>
+    <string name="yes_permissions">קדימה, לשנות את ההרשאות</string>
+    <string name="no_permissions">לא הפעם חבר..</string>
+    <string name="fill_form_message">אנא השלם את התיבות לעיל!</string>
+</resources>

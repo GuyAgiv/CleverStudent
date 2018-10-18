@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/skystars1"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditText
+        android:layout_weight="0.5"
+        android:layout_width="match_parent"
+        android:textColor="@android:color/white"
+        android:layout_height="wrap_content"
+        android:hint="@string/mail_sender_name"
+        android:inputType="text"
+        android:textColorHint="@android:color/white"
+        android:id="@+id/sender_name_editText"/>
+
+    <EditText
+        android:layout_weight="0.5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:hint="@string/mail_address"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@android:color/white"
+        android:id="@+id/sender_email_editText"/>
+
+    <EditText
+        android:layout_weight="0.5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailSubject"
+        android:textColor="@android:color/white"
+        android:hint="@string/mail_subject"
+        android:textColorHint="@android:color/white"
+        android:id="@+id/email_subject_editText"/>
+
+
+    <EditText
+        android:layout_weight="3"
+        android:layout_width="match_parent"
+        android:textColor="@android:color/white"
+        android:layout_height="wrap_content"
+        android:hint="@string/writeSomething_txt"
+        android:inputType="text"
+        android:textColorHint="@android:color/white"
+        android:id="@+id/email_message_editText"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/submit_txt"
+        android:background="@drawable/button_background"
+        android:textColor="@android:color/white"
+        android:id="@+id/submit_email_btn"
+        android:layout_gravity="center"/>
+
+
+
+
+
+
+
+
+
+</LinearLayout>

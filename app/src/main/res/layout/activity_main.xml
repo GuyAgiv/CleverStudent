@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/skystars1"
+    android:id="@+id/layout_login"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:background="@drawable/avatar"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/profile_img"
+        />
+
+    <TextView
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/change_picture"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textColorHint="@android:color/white"
+        android:hint="@string/input_name"
+        android:textColor="@android:color/white"
+        android:textAlignment="center"
+        android:inputType="textPersonName"
+        android:id="@+id/input_username"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@android:color/white"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="50dp"
+        android:hint="@string/input_academy_institue"
+        android:textAlignment="center"
+        android:inputType="textPersonName"
+        android:id="@+id/input_facultyname"
+        />
+
+    <Button android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:textColor="@android:color/white"
+        android:text="@string/signin_btn"
+        android:background="@drawable/button_background"
+        android:id="@+id/signin_btn"/>
+
+
+
+
+</LinearLayout>

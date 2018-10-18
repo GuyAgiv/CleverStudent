@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/skystars1"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:id="@+id/progressbarLayout">
+
+        <ProgressBar
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/importFriends_progressBar"/>
+
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:id="@+id/contacts_listView">
+    </ListView>
+
+    <Button android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:text="@string/addfriends_btn"
+        android:layout_weight="1"
+        android:background="@drawable/button_background"
+        android:textColor="@android:color/white"
+        android:id="@+id/addContactsFriends_btn"/>
+</LinearLayout>
